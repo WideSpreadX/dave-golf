@@ -7,10 +7,112 @@
     max-width: 100vw;
 }
 
-.container {
-    background: lime;
-}
-.container h1 {
-    text-align: center;
-    font-size: 5rem;
-}
+        /* 
+        font-family: 'Cormorant Infant', serif;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'Tangerine', cursive;
+         */
+
+         .header {
+            background: lime;
+        }
+        @media only screen and (max-width: 600px) {
+
+        .background img {
+            max-height: 100vh;
+            background-size: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -100;
+            }
+        }
+        .background img {
+            position: fixed;
+            background-size: cover;
+            top: 0;
+            left: 0;
+            z-index: -99;
+            max-width: 100vw;
+            min-height: 100vh;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.507);
+            margin-top: 100px;
+            padding: 50px;
+            border-radius: 10px;
+            margin-bottom: 100px;
+            box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.466), 0 0 5px white;
+        }
+        .header h1 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 5rem;
+            text-shadow: 0 0 3px black;
+            text-align: center;
+        }
+        .header h2 {
+            font-family: 'Cormorant Infant', serif;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        .header h3 {
+            font-family: 'Cormorant Infant', serif;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        .overlay {
+            background: rgba(255, 255, 255, 0.267);
+            padding: 15px;
+            padding-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.541), inset 0 0 50px rgba(0, 0, 0, 0.192);
+        }
+        .overlay2 {
+            background: rgba(255, 255, 255, 0.267);
+            padding: 15px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            border-radius: 10px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.541), inset 0 0 50px rgba(0, 0, 0, 0.192);
+        }
+
+
+        
+        .main-body {
+            background: rgba(255, 255, 255, 0.507);
+            margin-top: 100px;
+            padding: 50px;
+            border-radius: 10px;
+            margin-bottom: 100px;
+            box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.466), 0 0 5px white;
+        }
+        .main-body h1 {
+            font-family: 'Great Vibes', cursive;
+            text-align: center;
+        }
+        .main-body h3 {
+            font-family: 'Tangerine', cursive;
+            text-align: center;
+            font-size: 3rem;
+        }
+        .main-body h4 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .main-body p {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 1.5rem;
+        }
+        .overlay2 h5 {
+            font-family: 'Cormorant Infant', serif;
+            text-align: center;
+            font-size: 1rem;
+        }
+        hr {
+            margin-top: 40px;
+            width: 80%;
+            margin-left: 10%;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.397);
+        }
