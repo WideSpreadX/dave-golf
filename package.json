@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/WideSpreadX/dave-golf/issues"
   },
-  "homepage": "https://github.com/WideSpreadX/dave-golf#readme"
+  "homepage": "https://github.com/WideSpreadX/dave-golf#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "handlebars": "^4.7.6",
+    "mongoose": "^5.10.2",
+    "morgan": "^1.10.0"
+  }
 }
