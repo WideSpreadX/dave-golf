@@ -1,0 +1,20 @@
+{
+  "name": "dave-golf",
+  "version": "1.0.0",
+  "description": "Celebration of Life for Dave Olson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WideSpreadX/dave-golf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WideSpreadX/dave-golf/issues"
+  },
+  "homepage": "https://github.com/WideSpreadX/dave-golf#readme"
+}
