@@ -116,3 +116,10 @@
             margin-left: 10%;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.397);
         }
+
+        .rsvp {
+            padding: 20px;
+        }
+        .rsvp table {
+            width: 100%;
+        }
